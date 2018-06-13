@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  background-color: #fdfdfd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border: 15px solid #222;
+  border-bottom: 70px solid #222;
+  border-top: 50px solid #222;
+}

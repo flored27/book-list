@@ -1,0 +1,43 @@
+
+.book-image {
+  width: 80%;
+  text-align: center;
+}
+
+.mb-3 {
+  font-family: 'Merriweather', serif;
+  background-color: #ff9f80;
+  color: white;
+}
+
+.title-link {
+  color: white;
+}
+
+.card-deck {
+  width: 300px;
+}
+
+.column {
+  float: left;
+  width: 50vw;
+  border-right: 3px solid #222;
+  border-left: 3px solid #222;
+
+}
+
+.row {
+  width:100vw;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 767px) {
+  .column {
+     width: 100%;
+  }
+}

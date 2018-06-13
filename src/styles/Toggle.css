@@ -1,0 +1,37 @@
+.toggle-box {
+  margin: 10px;
+}
+
+.btn {
+  border: 0px;
+  padding: 10px;
+  font-family: 'Merriweather', serif;
+  background-color:#ff9f80
+}
+
+.alpha-button {
+  padding: 10px;
+  transform: translate(-50%, -50%)
+}
+
+.date-button {
+  padding: 10px;
+  transform: translate(50%, -50%)
+}
+
+/*changes the buttons position towards the center when the view is mobile (767px)*/
+@media and (max-width: 767px) {
+    .alpha-button, .date-button {
+        display:table;
+        margin:0 auto;
+        float: none;
+    }
+}
+
+.btn:hover {
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+
+.btn:active {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}

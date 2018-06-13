@@ -1,0 +1,11 @@
+.author-name {
+  padding: 8px;
+}
+
+.card-author-title {
+  font-family: 'Berkshire Swash', cursive;
+  color: #cc3300;
+  font-weight: bold;
+  padding: 20px;
+  padding-top: 35px;
+}
